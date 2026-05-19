@@ -1,9 +1,10 @@
 import sys 
 print("=" * 40)
 print("bienvenue dans mon premier job jenkins")
-print("=" * 40)
-
-nom=input("quel est ton nom?")
+if len(sys.argv) > 1:
+  nom = sys.arg[1]
+else:
+  nom = "Etudiant jenkins
 print(f"Bonjour{nom}, ton job jenkins a réussi")
 
 a=10
