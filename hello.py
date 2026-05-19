@@ -1,7 +1,7 @@
 import sys 
 print("=" * 40)
 print("bienvenue dans mon premier job jenkins")
-print("=" $ 40)
+print("=" * 40)
 
 nom=input("quel est ton nom?")
 print(f"Bonjour{nom}, ton job jenkins a réussi")
